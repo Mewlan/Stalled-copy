@@ -21,6 +21,7 @@
 		E4508BB3183F4E4300C4F3C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4508B95183F4E4300C4F3C6 /* UIKit.framework */; };
 		E4508BBB183F4E4300C4F3C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E4508BB9183F4E4300C4F3C6 /* InfoPlist.strings */; };
 		E4508BBD183F4E4300C4F3C6 /* StalledTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4508BBC183F4E4300C4F3C6 /* StalledTests.m */; };
+		E4B81670183F759F00662A13 /* squareRootBatch.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B8166F183F759F00662A13 /* squareRootBatch.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		E4508BB8183F4E4300C4F3C6 /* StalledTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StalledTests-Info.plist"; sourceTree = "<group>"; };
 		E4508BBA183F4E4300C4F3C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E4508BBC183F4E4300C4F3C6 /* StalledTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StalledTests.m; sourceTree = "<group>"; };
+		E4B8166E183F759F00662A13 /* squareRootBatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = squareRootBatch.h; sourceTree = "<group>"; };
+		E4B8166F183F759F00662A13 /* squareRootBatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = squareRootBatch.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				E4508BA7183F4E4300C4F3C6 /* ViewController.m */,
 				E4508BA9183F4E4300C4F3C6 /* Images.xcassets */,
 				E4508B98183F4E4300C4F3C6 /* Supporting Files */,
+				E4B8166E183F759F00662A13 /* squareRootBatch.h */,
+				E4B8166F183F759F00662A13 /* squareRootBatch.m */,
 			);
 			path = Stalled;
 			sourceTree = "<group>";
@@ -252,6 +257,7 @@
 				E4508BA8183F4E4300C4F3C6 /* ViewController.m in Sources */,
 				E4508BA2183F4E4300C4F3C6 /* AppDelegate.m in Sources */,
 				E4508B9E183F4E4300C4F3C6 /* main.m in Sources */,
+				E4B81670183F759F00662A13 /* squareRootBatch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +466,7 @@
 				E4508BC2183F4E4300C4F3C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E4508BC3183F4E4300C4F3C6 /* Build configuration list for PBXNativeTarget "StalledTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +475,7 @@
 				E4508BC5183F4E4300C4F3C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
